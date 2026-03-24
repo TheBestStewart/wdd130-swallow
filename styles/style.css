@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Bebas Neue', sans-serif;
+}
+nav {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #90B7CD;
+}
+a {
+    text-decoration: none;
+    font-size: 2em;
+    color: #45515A;
+    padding: 4px 50px;
+}
+a:hover {
+    background-color: #45515A;
+    color: #3EAC3A;
+}
+#active {
+    text-decoration: underline;
+}
+main {
+    text-align: center;
+    background-color: #527696;
+}
+#mission {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #4B2C2B;
+    color: #3EAC3A;
+}
+#mission p {
+    margin: 0 200px;
+    font-size: 1.25em;
+}
