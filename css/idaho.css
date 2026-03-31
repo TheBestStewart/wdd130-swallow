@@ -31,6 +31,21 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url(/images/background2.jpg)
+    ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+main h1{
+    color: white;
+}
+main p{
+    color: white;
 }
 
 /* reusables! */
@@ -51,7 +66,7 @@ main{
     grid-row: 1/2;
     grid-column: 1/4;
 
-    color: black;
+    color: white;
     letter-spacing: 2px;
     /* text-shadow: 2px 2px 5px gray; */
 }
@@ -64,7 +79,7 @@ main{
     border-left: 2px solid #45515A;
     border-top: 3px solid #45515A;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px grey;
+    box-shadow: 5px 5px 10px black;
 
     background-color: rgb(144, 183, 205);
 
@@ -91,7 +106,7 @@ main{
     border-left: 2px solid #45515A;
     border-top: 3px solid #45515A;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px grey;
+    box-shadow: 5px 5px 10px black;
 
     background-color: rgb(144, 183, 205);
 
@@ -115,10 +130,10 @@ main{
     padding-top: .5em;
     width: 100%;
 
-    border-left: 2px solid #45515A;
-    border-top: 3px solid #45515A;
+    border-left: 2px solid black;
+    border-top: 3px solid black;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px grey;
+    box-shadow: 5px 5px 10px black;
 
     background-color: rgb(144, 183, 205);
 
