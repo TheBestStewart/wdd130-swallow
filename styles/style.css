@@ -10,6 +10,10 @@ nav {
     align-items: center;
     background-color: #90B7CD;
 }
+footer {
+    background-color: #90B7CD;
+    padding: 0 20px;
+}
 a {
     text-decoration: none;
     font-size: 2em;
@@ -28,8 +32,9 @@ main {
     background-color: #527696;
 }
 #mission {
-    margin: 10px 0;
+    margin-top: 10px;
     padding: 10px;
+    padding-bottom: 20px;
     background-color: #4B2C2B;
     color: #3EAC3A;
 }
