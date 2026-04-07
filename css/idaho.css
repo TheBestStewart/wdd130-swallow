@@ -153,4 +153,12 @@ main p{
 footer{
     margin-top: 2em;
 }
+#general{
+	color: white;
+	margin: 1em;
+}
+#general h2{
+	text-align: center;
+	margin: .5em;
+}
 
